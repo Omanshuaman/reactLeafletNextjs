@@ -8,7 +8,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { useState } from "react";
 import RecenterAutomatically from "./RecenterAutomatically";
 
-export default function Home() {
+export default function Map() {
   // Define the initial map center and zoom
   const initialPosition = [20.5937, 78.9629]; // Geographic center of India
   const initialZoom = 5;
